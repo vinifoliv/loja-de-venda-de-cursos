@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background: linear-gradient(90deg, rgb(87, 141, 158), rgb(4, 97, 97));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(34, 34, 34);
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course {
+    box-shadow: 5px 5px 5px rgb(34, 34, 34);
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+    width: 85%;
+    height: fit-content;
+}
+
+.course-info {
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.course-title {
+    background-color: #046161;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    color: white;
+    max-width: 100%;
+}
+
+.course-description {
+    font-size: 20px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.course-value {
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(4, 97, 97);
+    transition: 0.35s;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(4, 97, 97);
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(4, 97, 97);
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.35s;
+}
+
+a:hover {
+    color: gray;
+}
